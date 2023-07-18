@@ -1,0 +1,5 @@
+.container-fluid, .row, .col {
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
