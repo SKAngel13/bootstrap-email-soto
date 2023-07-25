@@ -1,17 +1,37 @@
-/* container/columns */
-.container-fluid, .row, .col {
-    flex-wrap: nowrap;
+.contains-all-items {
     height: 100vh;
 }
 
-#col-1 {
+.card, .card-title, .card-body, .form-group {
+    margin: 1rem;
+}
+
+.sidebar {
+    background-color: #2C3333;
+    color: white;
+}
+
+.sidebar-text {
+    margin-top: 4.5rem;
     background-color: #2C3333;
 }
 
-#col-2 {
+.badge {
+    background-color: #2C3333;
+}
+
+.search-bar {
+    margin-top: 1rem;
+}
+
+.mail-list {
     background-color: #A5C9CA;
 }
 
-#col-3 {
+.view-mail {
     background-color: #E7F6F2;
+}
+
+.form-control {
+    resize: none;
 }
